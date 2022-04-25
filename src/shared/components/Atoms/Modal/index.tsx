@@ -51,7 +51,7 @@ const ModalBody = styled.div<ModalBodyProps>`
   width: 100vw;
   overflow: scroll;
 
-  transition: background-color 0.5s, visibility 0.5s;
+  transition: background-color 0.4s, visibility 0.4s;
 
   ${(props) =>
     !props.show &&
@@ -85,17 +85,17 @@ const ModalBody = styled.div<ModalBodyProps>`
     height: 40px;
     border-radius: 4px;
 
-    transition: all 0.5s ease-in-out;
+    transition: all 0.4s ease-in-out;
 
     background-color: ${(props) =>
-      transparentize(0.7, props.theme.colors.black)};
+      transparentize(0.4, props.theme.colors.white)};
 
     .menu-bars {
       width: 35px;
       height: 5px;
       background-color: ${(props) => props.theme.colors.black};
       border-radius: 5px;
-      transition: all 0.5s ease-in-out;
+      transition: all 0.4s ease-in-out;
     }
 
     .down {
@@ -134,7 +134,7 @@ const ModalBody = styled.div<ModalBodyProps>`
     background-color: ${(props) => props.theme.colors.background};
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 
-    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.4s, opacity 0.4s;
 
     ${(props) =>
       !props.show &&
