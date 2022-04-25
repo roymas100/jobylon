@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/jobylon/static/css/main.b2a3f954.css",
+    "main.js": "/jobylon/static/js/main.63639712.js",
+    "static/media/jobylon-logo-2.png": "/jobylon/static/media/jobylon-logo-2.6317724d05fb607f0eac.png",
+    "static/media/page_not_found.svg": "/jobylon/static/media/page_not_found.71c1112b6408bd954d8f4b1576b385bb.svg",
+    "static/media/empty.svg": "/jobylon/static/media/empty.fda9e8d6250c3790ee750956dc28b50e.svg",
+    "static/media/access_denied.svg": "/jobylon/static/media/access_denied.a249c48db329ff8c240c74a621c70002.svg",
+    "index.html": "/jobylon/index.html",
+    "main.b2a3f954.css.map": "/jobylon/static/css/main.b2a3f954.css.map",
+    "main.63639712.js.map": "/jobylon/static/js/main.63639712.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2a3f954.css",
+    "static/js/main.63639712.js"
+  ]
+}
