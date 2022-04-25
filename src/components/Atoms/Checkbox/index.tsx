@@ -18,7 +18,10 @@ const Checkbox: React.FC<CheckboxProps> = ({
 }) => {
   return (
     <CheckboxField
-      onClick={() => onChange(value)}
+      onClick={(e) => {
+        e.preventDefault();
+        onChange(value);
+      }}
       data-testid="checkbox-container"
     >
       <input
@@ -26,8 +29,8 @@ const Checkbox: React.FC<CheckboxProps> = ({
         id={name}
         value={value}
         checked={checked}
-        onChange={() => onChange(value)}
         data-testid="checkbox"
+        readOnly
       />
       <label htmlFor={name} data-testid="checkbox-label">
         {label}

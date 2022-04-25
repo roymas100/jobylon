@@ -79,4 +79,4 @@ const CheckboxListWrapper = styled.div`
   margin-top: 8px;
 `;
 
-export default CheckboxList;
+export default React.memo(CheckboxList);
