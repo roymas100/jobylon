@@ -2,11 +2,11 @@ import axios from "axios";
 import React, { useState } from "react";
 import { useMemo } from "react";
 import { useQuery } from "react-query";
-import JobList from "src/components/Organisms/JobList";
-import JobsFilter from "src/components/Organisms/JobsFilter";
-import JobsModel from "src/models/jobs.model";
+import JobList from "src/shared/components/Organisms/JobList";
+import JobsFilter from "src/shared/components/Organisms/JobsFilter";
+import JobsModel from "src/shared/models/jobs.model";
 import styled from "styled-components";
-import CenteredContainer from "../../components/Templates/CenteredContainer";
+import CenteredContainer from "src/shared/components/Templates/CenteredContainer";
 
 export interface SelectedJobs {
   [key: string]: string[];

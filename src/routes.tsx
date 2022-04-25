@@ -7,15 +7,14 @@ import PageNotFoundPage from "./pages/PageNotFound";
 const Router: React.FC = () => {
   return (
     <>
-      {/* <Suspense fallback={<Preloader />}> */}
       <Routes>
-        <Route path="/">
+        <Route path="jobylon">
           <Route element={<Jobs />} index />
+          <Route path="jobs" element={<Jobs />} />
         </Route>
 
         <Route path="*" element={<PageNotFoundPage />} />
       </Routes>
-      {/* </Suspense> */}
     </>
   );
 };
